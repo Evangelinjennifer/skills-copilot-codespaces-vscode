@@ -1,0 +1,68 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9; /* Light gray background */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Details Box Styling */
+.details-box {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ced4da; /* Soft gray border */
+    border-radius: 10px; /* Smooth rounded corners */
+    padding: 25px;
+    max-width: 600px;
+    margin: 20px auto; /* Center horizontally */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    text-align: left; /* Proper alignment */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.details-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+.details-box p {
+    font-size: 18px;
+    background: #eef2f7; /* Soft blue-gray background */
+    margin: 10px 0;
+    padding: 12px;
+    border-left: 6px solid #007bff; /* Blue left border */
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+/* Highlight Important Text */
+.details-box strong {
+    color: #212529; /* Darker shade for contrast */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

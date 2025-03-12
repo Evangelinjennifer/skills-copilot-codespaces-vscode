@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+#selectedBooks {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0056b3;
+    background-color: #eaf4ff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.details-box {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ced4da; /* Soft gray border */
+    border-radius: 10px; /* Smooth rounded corners */
+    padding: 25px;
+    max-width: 600px;
+    margin: 20px auto; /* Center horizontally */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    text-align: left; /* Proper alignment */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.details-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+.details-box p {
+    font-size: 18px;
+    background: #eef2f7; /* Soft blue-gray background */
+    margin: 10px 0;
+    padding: 12px;
+    border-left: 6px solid #007bff; /* Blue left border */
+    border-radius: 7px;
+    font-weight: 500;
+}

@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddfd2;
+    text-align: center;
+    padding: 50px;
+}
+.bor{
+    color: rgb(61, 130, 170);
+    font-size: 20px;
+}
+.bor a {
+    color: blue;
+    text-decoration: underline;
+}
+.bor {
+    text-decoration: none;
+}
+.bor a:hover {
+    text-decoration: underline;
+}
+.bor {
+    background-color: #ebd4d4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+.bor body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+
+.bor {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.login h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.login h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.bor:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+
+label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+.bor {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input[type="email"],
+input[type="password"] {
+
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+form input[type="submit"] {
+background-color: #1eb0bb;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+width: 100%;
+}
+
+
+form button [type="submit"]:hover {
+background-color:#1eb0bb ;
+}
+
+.bor p {
+margin-top: 20px;
+font-size: 14px;
+color: #666;
+}
+
+
+.bor a {
+color:#1eb0bb ;
+text-decoration: none;
+}
+
+.bor a:hover {
+text-decoration: underline;
+}

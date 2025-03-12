@@ -1,0 +1,187 @@
+<!-- book_selection.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Books</title>
+    <link rel="stylesheet" href="book.css">
+    
+</head>
+<body>
+    <div class="manage">
+        <nav>
+            <ul>
+                <li><a href="home.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+    <h1>Select Books</h1>
+    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for books..">
+    <form id="bookForm">
+        <table>
+            <tr>
+                <th>Select</th>
+                <th>Book ID</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>ISBN</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="1;The Elements of Computing Systems;Noam Nisan;9780743273565"></td>
+                <td>1</td>
+                <td>The Elements of Computing Systems</td>
+                <td>Noam Nisan</td>
+                <td>9780743273565</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="2;Introduction to the Theory of Computation;Michael Sipser;9781133187790"></td>
+                <td>2</td>
+                <td>Introduction to the Theory of Computation</td>
+                <td>Michael Sipser</td>
+                <td>9781133187790</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="3;Artificial Intelligence: A Modern Approach;Stuart Russell and Peter Norvig;9780134610993"></td>
+                <td>3</td>
+                <td>Artificial Intelligence: A Modern Approach</td>
+                <td>Stuart Russell and Peter Norvig</td>
+                <td>9780134610993</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="4;Clean Code: A Handbook of Agile Software Craftsmanship;Robert C. Martin;9780136083238"></td>
+                <td>4</td>
+                <td>Clean Code: A Handbook of Agile Software Craftsmanship</td>
+                <td>Robert C. Martin</td>
+                <td>9780136083238</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="5;Design Patterns: Elements of Reusable Object-Oriented Software;Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides;9780201633610"></td>
+                <td>5</td>
+                <td>Design Patterns: Elements of Reusable Object-Oriented Software</td>
+                <td>Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</td>
+                <td>9780201633610</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="6;Introduction to Algorithms;Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein;9780262033848"></td>
+                <td>6</td>
+                <td>Introduction to Algorithms</td>
+                <td>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</td>
+                <td>9780262033848</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="7;The Pragmatic Programmer;Andrew Hunt, David Thomas;9780135957059"></td>
+                <td>7</td>
+                <td>The Pragmatic Programmer</td>
+                <td>Andrew Hunt, David Thomas</td>
+                <td>9780135957059</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="8;The Mythical Man-Month: Essays on Software Engineering;Frederick P. Brooks Jr.;9780201833610"></td>
+                <td>8</td>
+                <td>The Mythical Man-Month: Essays on Software Engineering</td>
+                <td>Frederick P. Brooks Jr.</td>
+                <td>9780201833610</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="9;Code Complete: A Practical Handbook of Software Construction;Steve McConnell;9780735619678"></td>
+                <td>9</td>
+                <td>Code Complete: A Practical Handbook of Software Construction</td>
+                <td>Steve McConnell</td>
+                <td>9780735619678</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="10;Computer Networking: A Top-Down Approach;James Kurose, Keith Ross;9780135150122"></td>
+                <td>10</td>
+                <td>Computer Networking: A Top-Down Approach</td>
+                <td>James Kurose, Keith Ross</td>
+                <td>9780135150122</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="11;Operating System Concepts;Abraham Silberschatz, Peter B. Galvin, Greg Gagne;9781119471159"></td>
+                <td>11</td>
+                <td>Operating System Concepts</td>
+                <td>Abraham Silberschatz, Peter B. Galvin, Greg Gagne</td>
+                <td>9781119471159</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="12;Computer Vision: Algorithms and Applications;Richard Szeliski;9781466598549"></td>
+                <td>12</td>
+                <td>Computer Vision: Algorithms and Applications</td>
+                <td>Richard Szeliski</td>
+                <td>9781466598549</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="13;Artificial Intelligence: Foundations of Computational Agents;David L. Poole, Alan K. Mackworth;9781108486383"></td>
+                <td>13</td>
+                <td>Artificial Intelligence: Foundations of Computational Agents</td>
+                <td>David L. Poole, Alan K. Mackworth</td>
+                <td>9781108486383</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="14;The Art of Computer Programming;Donald E. Knuth;9780136091813"></td>
+                <td>14</td>
+                <td>The Art of Computer Programming</td>
+                <td>Donald E. Knuth</td>
+                <td>9780136091813</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="15;Cryptography and Network Security;William Stallings;9780134868530"></td>
+                <td>15</td>
+                <td>Cryptography and Network Security</td>
+                <td>William Stallings</td>
+                <td>9780134868530</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="16;Computer Architecture: A Quantitative Approach;John L. Hennessy, David A. Patterson;9780128122754"></td>
+                <td>16</td>
+                <td>Computer Architecture: A Quantitative Approach</td>
+                <td>John L. Hennessy, David A. Patterson</td>
+                <td>9780128122754</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="17;The C Programming Language;Brian W. Kernighan, Dennis M. Ritchie;9780131103627"></td>
+                <td>17</td>
+                <td>The C Programming Language</td>
+                <td>Brian W. Kernighan, Dennis M. Ritchie</td>
+                <td>9780131103627</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="18;Modern Operating Systems;Andrew S. Tanenbaum;9780136006632"></td>
+                <td>18</td>
+                <td>Modern Operating Systems</td>
+                <td>Andrew S. Tanenbaum</td>
+                <td>9780136006632</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="book" value="19;Introduction to the Theory of Computation;Michael Sipser;9781133187790"></td>
+                <td>19</td>
+                <td>Introduction to the Theory of Computation</td>
+                <td>Michael Sipser</td>
+                <td>9781133187790</td>
+            </tr>
+            <!-- Add book rows as before -->
+        </table>
+        <button type="button" onclick="submitBooks()">Submit</button>
+    </form>
+
+    <script>
+        function searchTable() {
+            let input = document.getElementById("searchInput").value.toLowerCase();
+            let rows = document.querySelectorAll("#bookTable tr:not(:first-child)");
+            rows.forEach(row => {
+                row.style.display = Array.from(row.cells).some(cell => 
+                    cell.textContent.toLowerCase().includes(input)
+                ) ? "" : "none";
+            });
+        }
+
+        function submitBooks() {
+            const selectedBooks = Array.from(document.querySelectorAll('input[name="book"]:checked')).map(cb => cb.value);
+            localStorage.setItem('selectedBooks', JSON.stringify(selectedBooks));
+            window.location.href = "detail.php";
+        }
+    </script>
+</body>
+</html>

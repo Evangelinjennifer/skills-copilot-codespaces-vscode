@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    background-image: url('library.jpg');
+    background-size: cover; /* Ensures the image covers the full page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh;  /* Green gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+          
+
+
+.login {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.login h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.login h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.login:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+
+label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+.login {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+background-color: #1eb0bb;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+width: 100%;
+}
+
+
+form button [type="submit"]:hover {
+background-color:#1eb0bb ;
+}
+
+.login p {
+margin-top: 20px;
+font-size: 14px;
+color: #666;
+}
+
+
+.login a {
+color:#1eb0bb ;
+text-decoration: none;
+}
+
+.login a:hover {
+text-decoration: underline;
+}
+.logout body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f2f2;
+}
+.logout {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logout h1 {
+    margin-bottom: 20px;
+}
+.logout a {
+    text-decoration: none;
+    color: #fff;
+    background-color:#1eb0bb;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.logout a:hover {
+    background-color: #0056b3;
+}
+
