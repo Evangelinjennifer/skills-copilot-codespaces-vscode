@@ -1,0 +1,56 @@
+# Library Management System
+
+## Overview
+The Library Management System is a web-based application that facilitates book borrowing and management for users and administrators. It consists of two modules:
+
+- **User Module:** Users can sign up, log in, browse available books, borrow and return books, check book availability, and raise complaints.
+- **Admin Module:** Admins can log in using default credentials to manage users, oversee book allotments, handle book returns, view complaints, and manage new user registrations. All essential information is displayed on the admin dashboard.
+
+## Tech Stack
+- **Backend:** PHP
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** MySQL
+
+## Installation Instructions
+1. **Setup XAMPP (or any other local server):**
+   - Download and install [XAMPP](https://www.apachefriends.org/).
+   - Start **Apache** and **MySQL** services.
+
+2. **Database Configuration:**
+   - Open phpMyAdmin (`http://localhost/phpmyadmin`).
+   - Create a new database (e.g., `library_db`).
+   - Import the SQL file (`library_db.sql`) to set up tables.
+
+3. **Project Files Setup:**
+   - Place the project files in the `htdocs` folder inside the XAMPP directory.
+   - Ensure the file path matches `C:/xampp/htdocs/form/`.
+
+4. **Access the System:**
+   - User Login: [`http://localhost:8080/form/user/welcome.php`](http://localhost:8080/form/user/welcome.php)
+   - Admin Login: [`http://localhost:8080/form/admin/admin.php`](http://localhost:8080/form/admin/admin.php)
+
+## Features
+### User Side:
+- User Registration & Login
+- Browse and Select Books
+- Check Book Availability
+- Submit & Return Books
+- Raise Complaints
+
+### Admin Side:
+- Manage Users
+- Manage Book Allotments
+- View & Handle Complaints
+- Track Books Borrowed & Returned
+- Dashboard Overview
+
+## Default Admin Credentials
+- **Email:** admin@example.com  
+- **Password:** admin123  
+
+## License
+This project is open-source. Feel free to modify and distribute it as needed.
+
+## Contributors
+- [Your Name / Team Name]
+
